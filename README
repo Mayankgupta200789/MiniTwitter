@@ -1,0 +1,36 @@
+Application Information
+========================================
+
+This application is http basic authenticated and needs credentials
+to login to the applications
+
+All the passwords are encrypted. I am providing you one credential to access the application
+
+http://localhost:8080/
+batman/b@tm@n
+
+
+Application can be run in following way:
+========================================
+
+1 -->
+	cd minitwitter-service
+	mvn spring-boot:run
+			This would start the application on localhost:8080
+2 -->
+	From your IDE, go to src/main/.../ChallengeApplication.java and run it as java application.
+
+
+Few of the URLs available by default:
+======================================
+
+/swagger-ui.html -> Unsecured
+		  -> The swagger API documentation URL.
+		  -> The swagger documentation can be found @ /api-docs
+		  -> Use the details given in apis section of the swagger documentation
+
+/v2/api-docs -> The swagger UI generated using "/api-doc" end-point
+
+
+
+======================================
